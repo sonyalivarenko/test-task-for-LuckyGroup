@@ -1,0 +1,16 @@
+.header__mobile-button {
+  background-image: url(../../../images/header-nav.svg);
+  width: 44px;
+  height: 44px;
+  background-color: #ECF7F3;
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 530px) {
+  .header__mobile-button {
+    width: 25px;
+    height: 35px;
+  };
+}

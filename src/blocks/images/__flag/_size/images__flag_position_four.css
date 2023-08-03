@@ -1,0 +1,52 @@
+.images__flag_position_four {
+  top: 50%;
+  left: 50%;
+  animation: images__flag_position_four 3s ease-out 1.6s forwards,
+  rotating 5s infinite linear 5s;
+  transform-origin: -150px 150px; 
+}
+
+@keyframes images__flag_position_four {
+  from {
+    top: 50%;
+    left: 50%;
+  }
+  to {
+    top: 5%;
+    left: 85%;
+  }
+}
+
+@keyframes rotating { 
+  to {
+    transform: rotate(360deg) ;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  @keyframes images__flag_position_four {
+    from {
+      top: 50%;
+      left: 50%;
+    }
+    to {
+      top: 10%;
+      left: 70%;
+    }
+  } 
+}
+
+@media screen and (max-width: 1100px) {
+  .images__flag_position_four {
+    transform-origin: -100px 80px;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .images__flag_position_four {
+    display: none;
+  } 
+}
+
+
+

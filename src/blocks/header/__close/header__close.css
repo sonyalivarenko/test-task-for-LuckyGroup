@@ -1,0 +1,17 @@
+.header__close {
+  margin-top: 5px;
+  margin-right: -135px;
+  margin-bottom: 80px;
+  background-image: url(../../../images/close_icon.svg);
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border: none;
+  padding: 0;
+  background-position: center;
+  cursor: pointer;
+}
+
+.header__close:hover {
+  opacity: 0.8;
+}

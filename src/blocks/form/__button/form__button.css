@@ -1,0 +1,31 @@
+.form__button {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  right: 6px;
+  top: 4px;
+  background-image: url(../../../images/search.svg);
+  background-repeat: no-repeat;
+  background-color: #48B774;
+  border: none;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 750px) {
+  .form__button {
+    right: -26px;
+  };
+}
+
+@media screen and (max-width: 420px) {
+  .form__button {
+    top: 70px;
+    right: 90px;
+  };
+}

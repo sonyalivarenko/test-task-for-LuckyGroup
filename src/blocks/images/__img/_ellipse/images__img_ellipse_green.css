@@ -1,0 +1,32 @@
+.images__img_ellipse_green {
+  width: 280px; 
+  height: 280px;
+  background: #48B774;
+  border-radius: 50%;
+  position: absolute;
+  top: 73px;
+  left: 160px;
+}
+
+@media screen and (max-width: 1105px) {
+  .images__img_ellipse_green {
+    width: 240px;
+    height: 240px;
+    left: 130px;
+  };
+}
+
+@media screen and (max-width: 500px) {
+  .images__img_ellipse_green {
+    left: 100px;
+    width: 60%;
+    height: 70%;
+  };
+}
+
+@media screen and (max-width: 400px) {
+  .images__img_ellipse_green {
+    left: 50px;
+    top: 50px;
+  };
+}

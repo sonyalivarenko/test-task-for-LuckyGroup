@@ -1,0 +1,26 @@
+.images__img_ellipse_no-color {
+  width: 450px; 
+  height: 450px;
+  border-radius: 50%;
+  border: 1px solid #E8E8E8;
+  position: absolute;
+  top: -30px;
+  left: 70px;
+}
+
+@media screen and (max-width: 1105px) {
+  .images__img_ellipse_no-color {
+    width: 350px;
+    height: 350px;
+  };
+}
+
+@media screen and (max-width: 500px) {
+  .images__img_ellipse_no-color {
+    width: 90%;
+    left: 10px;
+    height: 100%;
+  };
+}
+
+

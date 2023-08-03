@@ -1,0 +1,14 @@
+.header__nav {
+  width: 365px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 500px;
+  }
+
+}

@@ -1,0 +1,24 @@
+.content__title {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  max-width: 474px;
+  margin-bottom: 9px;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .content__title {
+    margin-top: 50px;
+    text-align: center;
+  };
+}
+
+@media screen and (max-width: 600px) {
+  .content__title {
+    font-size: 24px;
+    line-height: 48px
+  };
+}

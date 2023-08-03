@@ -1,0 +1,17 @@
+.button_size_small {
+  display: flex;
+  padding-top: 9px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 9px;
+  font-size: 16px;
+  line-height: 24px;
+  height: 42px;
+  align-self: center;
+}
+
+@media screen and (max-width: 530px) {
+  .button_size_small {
+    font-size: 12px;
+  };
+}

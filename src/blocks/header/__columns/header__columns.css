@@ -1,0 +1,19 @@
+.header__columns {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .header__columns {
+    flex-direction: column;
+    gap: 30px;
+    width: 365px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+}

@@ -1,0 +1,25 @@
+.content__subtitle {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: #7C7C7C;
+  max-width: 444px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .content__subtitle {
+    text-align: center
+  };
+}
+
+@media screen and (max-width: 600px) {
+  .content__subtitle {
+    font-size: 9px;
+    line-height: 15px;
+  };
+}

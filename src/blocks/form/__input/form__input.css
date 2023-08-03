@@ -1,0 +1,31 @@
+.form__input {
+  width: 557px;
+  border-radius: 100px;
+  border: none;
+  padding-top: 21px;
+  padding-left: 40px;
+  padding-bottom: 22px;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .form__input {
+    width: 400px
+  };
+}
+
+@media screen and (max-width: 1100px) {
+  .form__input {
+    width: 100%
+  };
+}
+
+@media screen and (max-width: 420px) {
+  .form__input {
+    width: 70%;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 12px;
+  };
+}

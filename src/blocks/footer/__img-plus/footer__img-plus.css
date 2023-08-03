@@ -1,0 +1,14 @@
+.footer__img-plus {
+  position: relative;
+  display: inline-block;
+  background-image: url(../../../images/plus.svg);
+  background-color: #FF8345;
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid #fff;
+  margin-left: -15px;
+  z-index: 0;
+}

@@ -1,0 +1,36 @@
+.images__flag_position_two {
+  top: 50%;
+  right: 30%;
+  animation: images__flag_position_two 3s ease-out 0.8s forwards, 
+  rotating 5s infinite linear 5s;
+  transform-origin: 270px 140px;
+}
+
+@keyframes images__flag_position_two {
+  from {
+    top: 50%;
+    right: 30%;
+  }
+  to {
+    top: 5%;
+    right: 68%;
+  }
+}
+
+@keyframes rotating { 
+  to {
+    transform: rotate(360deg) ;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .images__flag_position_two {
+    transform-origin: 240px 110px;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .images__flag_position_two {
+    display: none;
+  } 
+}

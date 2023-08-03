@@ -1,0 +1,9 @@
+.button_size_big {
+  padding-top: 11.5px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 11.5px;
+  margin: auto;
+  font-size: 15px;
+  line-height: 22.5px;
+}
